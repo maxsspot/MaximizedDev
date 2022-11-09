@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /icon.jpeg
+Disallow: /netlify.toml
+Allow: /
