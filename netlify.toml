@@ -2,7 +2,7 @@
   for = "/*"
   [headers.values]
     X-XSS-Protection = "1"
-    Access-Control-Allow-Origin = "https://maximizestudios.netlify.app"
+    Access-Control-Allow-Origin = "maximizestudios.netlify.app"
     X-Frame-Options = "deny"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"
