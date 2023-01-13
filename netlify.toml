@@ -16,7 +16,6 @@
       autoplay=(), 
       battery=(), 
       camera=(), 
-      cross-origin-isolated=(), 
       display-capture=(), 
       document-domain=(), 
       encrypted-media=(), 
@@ -50,7 +49,7 @@
       worker-src 'none';
       manifest-src 'none';
       navigate-to 'none';
-      form-action 'none';
+      form-action /index;
       media-src 'none';
       object-src 'none';
       frame-src 'none';
