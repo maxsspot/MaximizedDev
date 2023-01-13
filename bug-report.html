@@ -31,8 +31,6 @@
               <textarea name = "Bug described and how to replicate..." placeholder = "Describe the bug and how to replicate it..." required></textarea>
               <br>
               <button id = "submitbu">Submit</button>
-              <br>
-              <div data-netlify-recaptcha="true"></div>
             </form>
         </div>
         <br>
@@ -55,6 +53,7 @@ border:lightgray solid 1px;
 	margin:5px;
 text-indent:10px;
 border-radius:5px;
+	outline:none;
 	font-family:"Mukta", sans-serif;
 	transition:all 0.25s;
 }
@@ -67,9 +66,10 @@ input:focus {
 				background-color:skyblue;
 				border:skyblue solid 1px;
 				border-radius:5px;
-				width:305px;
+				width:304px;
 				height:35px;
 				font-family:"Mukta", sans-serif;
+				cursor:pointer;
 			}
 			
 #submitbu:hover {
@@ -82,6 +82,7 @@ height:125px;
 background-color:transparent;
 border:lightgray solid 1px;
 	margin:5px;
+				outline:none;
 text-indent:10px;
 				transition:all 0.25s;
 				resize:none;
