@@ -22,13 +22,13 @@
             <h1>BUG REPORT</h1>
             <form method = "POST" name = "Bug Reports" action = "/index" netlify-honeypot="caught" netlify>
               <input name = "caught" type = "hidden" style = "display:none;" />
-              <input name = "Users name..." placeholder = "Your name..." required />
+              <input name = "Users name..." placeholder = "Your name..." required aria-required="true" />
               <br>
-              <input name = "Users email..." placeholder = "Your email..." type = "email" required />
+              <input name = "Users email..." placeholder = "Your email..." type = "email" required aria-required="true"/>
               <br>
-              <input name = "Game with bug..." placeholder = "Game name... (eg. Verboten, Numerale, etc.)" required />
+              <input name = "Game with bug..." placeholder = "Game name... (eg. Verboten, Numerale, etc.)" required aria-required="true" />
               <br>
-              <textarea name = "Bug described and how to replicate..." placeholder = "Describe the bug and how to replicate it..." required></textarea>
+              <textarea name = "Bug described and how to replicate..." placeholder = "Describe the bug and how to replicate it..." required aria-required="true"></textarea>
               <br>
               <button id = "submitbu" type = "submit">Submit</button>
             </form>
