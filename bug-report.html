@@ -22,13 +22,13 @@
             <h1>BUG REPORT</h1>
             <form method = "POST" name = "Bug Reports" action = "/index" netlify-honeypot="caught" netlify>
               <input name = "caught" type = "hidden" style = "display:none;" />
-              <input name = "Users name..." placeholder = "Your name..." required aria-required="true" />
+              <input name = "Users name..." placeholder = "Your name..." required aria-required="true" aria-label="Enter your name..." />
               <br>
-              <input name = "Users email..." placeholder = "Your email..." type = "email" required aria-required="true"/>
+              <input name = "Users email..." placeholder = "Your email..." type = "email" required aria-required="true" aria-label="Enter your email..." />
               <br>
-              <input name = "Game with bug..." placeholder = "Game name... (eg. Verboten, Numerale, etc.)" required aria-required="true" />
+              <input name = "Game with bug..." placeholder = "Game name... (eg. Verboten, Numerale, etc.)" required aria-required="true" aria-label="Enter the game name that has the bug..." />
               <br>
-              <textarea name = "Bug described and how to replicate..." placeholder = "Describe the bug and how to replicate it..." required aria-required="true"></textarea>
+              <textarea name = "Bug described and how to replicate..." placeholder = "Describe the bug and how to replicate it..." required aria-required="true" aria-label="Describe the bug and how to replicate it..."></textarea>
               <br>
               <button id = "submitbu" type = "submit">Submit</button>
             </form>
@@ -36,7 +36,7 @@
         <br>
 		<br>
         <br>
-        <label>© 2022, maximizestudios.netlify.app, All Rights Reserved.<br><sub>Not associated with maximizevideo.com or www.maxmizestudio.com</sub></label>
+        <p style = "width:400px;">© 2022, maximizestudios.netlify.app, All Rights Reserved.<br><sub>Not associated with maximizevideo.com or www.maxmizestudio.com</sub></p>
         <br>
         <br>
 		<style>
