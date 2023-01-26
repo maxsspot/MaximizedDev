@@ -23,7 +23,7 @@
           <h2>TEXT SIZE</h2>
           <button id = "yeppers" onclick = "normalfont()">Normal</button>
           <br>
-          <button id = "yeppers" onclick = "bigfont()">Larger</button>
+          <button id = "yeppers" onclick = "bigfontpls()">Larger</button>
           <br>
           <br>
 	  
@@ -34,9 +34,11 @@
         <br>
         <br>
 	<script>
-		function bigfont () {
-  document.getElementsByTagName("button").style.fontSize = "35px";
-  document.getElementsByTagName("p").style.fontSize = "40px";
+		function bigfontpls () {
+  var x = document.getElementsByTagName("button");
+  x.style.fontSize = "35px";
+  var y = document.getElementsByTagName("p");
+  y.style.fontSize = "40px";
 }
 
 	</script>
