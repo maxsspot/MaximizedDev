@@ -9,7 +9,7 @@
     Cross-Origin-Embedder-Policy = "require-corp"
     Cross-Origin-Opener-Policy = "same-origin"
     Cross-Origin-Resource-Policy = "same-origin"
-    host: 104.21.23.155
+    host = "104.21.23.155"
     
     Permissions-Policy= '''
       accelerometer=(), 
