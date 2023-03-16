@@ -2,15 +2,14 @@
   for = "/*"
   [headers.values]
     X-XSS-Protection = "1"
-    Access-Control-Allow-Origin = "https://maximizestudios.netlify.app"
+    Access-Control-Allow-Origin = "https://maximizestudios.dev"
     X-Frame-Options = "deny"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"
     Cross-Origin-Embedder-Policy = "require-corp"
     Cross-Origin-Opener-Policy = "same-origin"
     Cross-Origin-Resource-Policy = "same-origin"
-    host = "104.21.23.155"
-    
+
     Permissions-Policy= '''
       accelerometer=(), 
       ambient-light-sensor=(), 
