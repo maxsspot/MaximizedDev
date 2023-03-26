@@ -1,6 +1,4 @@
 User-Agent: *
 Disallow: /icon.jpeg
 Disallow: /netlify.toml
-Allow: /index.html
-Allow: /news.html
-Allow: /bug-report
+Allow: /
